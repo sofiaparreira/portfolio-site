@@ -1,0 +1,349 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500&display=swap');
+
+
+ :root {
+     --cor1: #323232;
+     --cor2: #5D83C6;
+     --cor3: #2A3342;
+     --cor4: #36464F;
+ }
+
+ body {
+     background-color: #323232;
+     margin: auto;
+
+ }
+
+ nav {
+     z-index: 99999999999;
+     background-color: var(--cor1);
+     width: 100%;
+     box-sizing: border-box;
+     font-size: 1.7em;
+     font-weight: 300;
+     position: fixed;
+     text-align: right;
+     padding-top: 3%;
+     padding-bottom: 2%;
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.253);
+
+ }
+
+ nav>a {
+     margin-right: 6%
+ }
+
+ #home {
+     background-image: url(Rectangle\ 36\ \(2\).png);
+     background-repeat: no-repeat;
+     padding: 10% 5% 7% 5%;
+ }
+
+ #habilidades {
+     padding: 3% 0% 8% 0%;
+ }
+
+ #projetos {
+     box-sizing: border-box;
+     width: 100%;
+     height: 1550px;
+     margin: auto;
+     background-color: rgba(51, 49, 72, 0.8);
+     padding: 2% 4% 4% 4%;
+ }
+
+
+ section>p {
+     color: white;
+     font-family: 'Roboto Mono', monospace;
+ }
+
+
+ section>h1 {
+     color: white;
+     font-family: 'Roboto Mono', monospace;
+ }
+
+ #home>p {
+
+     margin-right: 10px;
+     max-width: 900px;
+     min-width: 420px;
+     margin-right: 600px;
+     font: normal 200 1.4em 'Roboto Mono', monospace;
+ }
+
+ #home>h1 {
+     color: var(--cor2);
+     font-weight: 500;
+     font-family: 'Roboto Mono', monospace;
+     font-size: 3em;
+ }
+
+ img {
+
+     width: 25px;
+     height: 25px;
+ }
+
+ a {
+     color: white;
+     text-decoration: none;
+     font-family: 'Roboto Mono', monospace;
+ }
+
+ #home>a {
+     border-radius: 10px;
+     margin-right: 3%;
+ }
+
+ #linkedin {
+     box-sizing: border-box;
+     display: inline-block;
+     padding-top: 13px;
+     border: 3px solid #00669A;
+     width: 200px;
+     height: 65px;
+     text-align: center;
+ }
+
+ #github {
+
+     box-sizing: border-box;
+     display: inline-block;
+     padding-top: 13px;
+     border: 3px solid #5643CE;
+     width: 200px;
+     height: 65px;
+     text-align: center;
+
+ }
+
+ #curriculo {
+     box-sizing: border-box;
+     padding-top: 13px;
+     border: 3px solid #6D4B4B;
+     display: block;
+     position: absolute;
+     width: 200px;
+     height: 65px;
+     text-align: center;
+     margin-top: 40px;
+     margin-left: 125px;
+     position: static;
+     align-items: center;
+
+ }
+
+ .p1 {
+     padding-bottom: 3%;
+
+ }
+
+ #imghome {
+     position: absolute;
+     left: 65%;
+     top: 28%;
+     height: 440px;
+     width: 550px;
+ }
+
+
+ @media screen and (max-width:1370px) {
+     main #imghome {
+         display: none;
+     }
+
+     main #imghome ul {
+         display: none;
+     }
+
+     main a#imghome {
+         display: block;
+     }
+ }
+
+ .titulos {
+     padding-top: 7%;
+     padding-bottom: 7%;
+     font-weight: 400;
+     text-align: center;
+     font-size: 2em
+ }
+
+ #h {
+     display: flex;
+     box-sizing: border-box;
+     background-color: #36464F;
+     width: 90%;
+     border-radius: 15px 15px 0px 0px;
+     height: 20vh;
+     margin: auto;
+     padding: 3% 0% 4% 4%;
+
+ }
+
+ #h2 {
+     display: flex;
+     box-sizing: border-box;
+     background-color: #36464F;
+     width: 90%;
+     border-radius: 0px 0px 15px 15px;
+     height: 20vh;
+     margin: auto;
+     padding: 1% 0% 4% 4%;
+
+
+ }
+
+ .cardhab {
+     box-sizing: border-box;
+     margin-right: 4%;
+     margin-bottom: 3%;
+     padding-left: 15px;
+     padding-top: 15px;
+     border-radius: 14px;
+     color: white;
+     background: rgba(0, 0, 0, 0.24);
+     width: 30%;
+     height: 12vh;
+     font: normal 300 1.4em 'Roboto Mono', monospace;
+
+ }
+
+ .cardhab>img {
+
+     padding-right: 30px;
+     width: 40px;
+     height: 40px;
+     float: left;
+ }
+
+
+ .desktop {
+     display: block;
+     /* inline, inline-block */
+ }
+
+ .mobile {
+     font-size: 0.7em;
+     padding: 50px 5px;
+     display: none;
+ }
+
+
+ @media(max-width: 650px) {
+     .desktop {
+         display: none;
+     }
+
+     .mobile {
+         display: block;
+         /* ou inline, inline-block */
+     }
+
+     .cardhab {
+         height: 17vh;
+     }
+
+     #footerid {
+        height: 96px;
+     }
+
+     footer>p{
+        font-size: 0.8em;
+        padding-top: 10px;
+     }
+    
+     #linkfooter{
+        padding-top: 15px;
+        font-size: 0.7em;
+     }
+ }
+
+
+ #projetos1 {
+     display: flex;
+     box-sizing: border-box;
+     border-radius: 15px 15px 0px 0px;
+     margin: auto;
+     padding: 2% 10% 0% 10%;
+ }
+
+ #projetos2 {
+     display: flex;
+     box-sizing: border-box;
+     border-radius: 15px 15px 0px 0px;
+     margin: auto;
+     padding: 2% 10% 0% 10%;
+ }
+
+ .cardp {
+     color: white;
+     padding-bottom: 120px;
+     margin-right: 450px;
+
+ }
+
+ .cardp>h2 {
+     font: normal 400 1.5em 'Roboto Mono', monospace;
+ }
+
+ .cardp>p {
+     width: 500px;
+     font: normal 300 0.9em 'Roboto Mono', monospace;
+     padding-bottom: 30px;
+ }
+
+ .cardp>a {
+     text-decoration: none;
+     box-sizing: border-box;
+     
+     width: 110px;
+     height: 40px;
+     text-align: center;
+     padding: 8px;
+     border-radius: 10px;
+ }
+
+ .cardp>a>img {
+     width: 17px;
+     height: 17px;
+ }
+
+ .imgprojeto {
+     width: 470px;
+     height: 20vh;
+     background-color: #D9D9D9;
+ }
+
+ #color1{border: 1px solid #87B8C2;}
+ #color2{border: 1px solid #DB9191;}
+ #color3{border: 1px solid #87C29F;}
+ #color4{border: 1px solid #C8A8D0;}
+
+
+
+ footer {
+     bottom: 0;
+     margin-bottom: 0px;
+     background-color: rgba(0, 0, 0, 0.76);
+     color: rgb(194, 194, 194);
+     height: 80px;
+     width: 96%;
+     padding: 1% 2%;
+     font: normal 300 1em 'Roboto Mono', monospace;
+ }
+
+ footer>p {
+    text-align: center;
+    padding-bottom: 10px;
+     margin: auto
+ }
+
+ footer> a{
+    font: normal 200 0.9em 'Roboto Mono', monospace;
+    color: rgb(182, 182, 182);
+    padding-bottom: 10px;
+
+ }
